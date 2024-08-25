@@ -21,7 +21,7 @@ Run the Pong Game:
 
 Command Prompt Code 
 
-C:\windows\system32>cd C:\Users\Admin\Downloads\Pong-Game-main
+C:\windows\system32>cd C:\path\to\folder\Pong-Game-main
 - Change Directory (cd): This command changes the current directory to C:\Users\Admin\Downloads\Pong-Game-main,which is the directory where your
   Pong-Game-main folder is located. You need to be in this directory to compile and run the Java files located in subdirectories.
 
