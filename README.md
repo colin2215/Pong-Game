@@ -21,14 +21,14 @@ Run the Pong Game:
 
 Command Prompt Code 
 
-C:\windows\system32>cd C:\path\to\folder\Pong-Game-main
-- Change Directory (cd): This command changes the current directory to C:\Users\Admin\Downloads\Pong-Game-main,which is the directory where your
-  Pong-Game-main folder is located. You need to be in this directory to compile and run the Java files located in subdirectories.
+C:\>cd C:\path\to\folder\Pong-Game-main
+Change Directory (cd): This command changes the current directory to C:\path\to\folder\Pong-Game-main,which is the directory where your
+Pong-Game-main folder is located. You need to be in this directory to compile and run the Java files located in subdirectories.
 
 C:\path\to\folder\Pong-Game-main>javac Game\\*.java
-- Compile Java Files (javac): This command compiles all Java source files (*.java) found in the Game folder. The javac command translates the Java
-  source code into bytecode, generating .class files that the Java Virtual Machine (JVM) can execute. Make sure you have the Game folder and Java files correctly placed in the director
+Compile Java Files (javac): This command compiles all Java source files (*.java) found in the Game folder. The javac command translates the Java
+source code into bytecode, generating .class files that the Java Virtual Machine (JVM) can execute. Make sure you have the Game folder and Java files correctly placed in the director
 
 C:\path\to\folder\Pong-Game-main>java Game.PongGame
-- Run Java Program (java): This command runs the PongGame class from the Game package. The java command executes the compiled bytecode. The Game.PongGame specifies the fully
-  qualified name of the class containing the main method, which is the entry point of the application. Ensure that the PongGame class is correctly compiled and contains the main method.
+Run Java Program (java): This command runs the PongGame class from the Game package. The java command executes the compiled bytecode. The Game.PongGame specifies the fully
+qualified name of the class containing the main method, which is the entry point of the application. Ensure that the PongGame class is correctly compiled and contains the main method.
